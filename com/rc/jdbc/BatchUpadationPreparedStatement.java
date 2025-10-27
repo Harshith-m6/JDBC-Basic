@@ -16,7 +16,7 @@ public class BatchUpadationPreparedStatement {
 		
 		ps.setInt(1, 101);
 		ps.setString(2, "Harshith");
-		ps.setInt(3, 100000);
+		ps.setInt(3, 100000);  
 		ps.setString(4, "banglore");
 		ps.addBatch();
 		

@@ -1,5 +1,4 @@
 package com.rc.jdbc;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.sql.Connection;
@@ -33,9 +32,5 @@ public class BufferReaderJDBC {
 			}
 		}
 		connection.close();
-		
-		
-		
 	}
-
 }
