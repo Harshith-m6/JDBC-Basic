@@ -13,7 +13,7 @@ public class EmployeeConnection {
 	{
 		Connection connection = null;
 		try {
-			Class.forName("Oracle.jdbc.driver.OracleDriver");
+			Class.forName("oracle.jdbc.driver.OracleDriver");
 			connection = DriverManager.getConnection(URL , USER , password);
 			
 		}catch(ClassNotFoundException | SQLException e)
